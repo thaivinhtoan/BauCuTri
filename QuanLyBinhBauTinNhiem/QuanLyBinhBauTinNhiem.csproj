@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F51145A-68DE-4FE2-BDEF-6583C45CC8AD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuanLyBinhBauTinNhiem</RootNamespace>
+    <AssemblyName>QuanLyBinhBauTinNhiem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="fBanTochuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBanTochuc.Designer.cs">
+      <DependentUpon>fBanTochuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBoPhanGiamSat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBoPhanGiamSat.Designer.cs">
+      <DependentUpon>fBoPhanGiamSat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDSUngVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDSUngVien.Designer.cs">
+      <DependentUpon>fDSUngVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLogin.Designer.cs">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fNguoiDiBau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fNguoiDiBau.Designer.cs">
+      <DependentUpon>fNguoiDiBau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fToGiamSat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fToGiamSat.Designer.cs">
+      <DependentUpon>fToGiamSat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fToTheoDoiKetQua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fToTheoDoiKetQua.Designer.cs">
+      <DependentUpon>fToTheoDoiKetQua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fBanTochuc.resx">
+      <DependentUpon>fBanTochuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBoPhanGiamSat.resx">
+      <DependentUpon>fBoPhanGiamSat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDSUngVien.resx">
+      <DependentUpon>fDSUngVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLogin.resx">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fNguoiDiBau.resx">
+      <DependentUpon>fNguoiDiBau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fToGiamSat.resx">
+      <DependentUpon>fToGiamSat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fToTheoDoiKetQua.resx">
+      <DependentUpon>fToTheoDoiKetQua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{4ed5c495-96da-44cb-8df4-0e2e9e3b00a0}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{468b2471-7003-40fe-82e7-2c6ba916e874}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
