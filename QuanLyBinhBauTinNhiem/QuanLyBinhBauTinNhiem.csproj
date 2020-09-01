@@ -46,70 +46,115 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fBanTochuc.cs">
+    <Compile Include="FormBanTochuc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fBanTochuc.Designer.cs">
-      <DependentUpon>fBanTochuc.cs</DependentUpon>
+    <Compile Include="FormBanTochuc.Designer.cs">
+      <DependentUpon>FormBanTochuc.cs</DependentUpon>
     </Compile>
-    <Compile Include="fBoPhanGiamSat.cs">
+    <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fBoPhanGiamSat.Designer.cs">
-      <DependentUpon>fBoPhanGiamSat.cs</DependentUpon>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="fDSUngVien.cs">
+    <Compile Include="FormBauChon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fDSUngVien.Designer.cs">
-      <DependentUpon>fDSUngVien.cs</DependentUpon>
+    <Compile Include="FormBauChon.Designer.cs">
+      <DependentUpon>FormBauChon.cs</DependentUpon>
     </Compile>
-    <Compile Include="fLogin.cs">
+    <Compile Include="FormBoPhanGiamSat.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fLogin.Designer.cs">
-      <DependentUpon>fLogin.cs</DependentUpon>
+    <Compile Include="FormBoPhanGiamSat.Designer.cs">
+      <DependentUpon>FormBoPhanGiamSat.cs</DependentUpon>
     </Compile>
-    <Compile Include="fNguoiDiBau.cs">
+    <Compile Include="FormDSNguoiDiBau.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fNguoiDiBau.Designer.cs">
-      <DependentUpon>fNguoiDiBau.cs</DependentUpon>
+    <Compile Include="FormDSNguoiDiBau.Designer.cs">
+      <DependentUpon>FormDSNguoiDiBau.cs</DependentUpon>
     </Compile>
-    <Compile Include="fToGiamSat.cs">
+    <Compile Include="FormDSUngCuVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fToGiamSat.Designer.cs">
-      <DependentUpon>fToGiamSat.cs</DependentUpon>
+    <Compile Include="FormDSUngCuVien.Designer.cs">
+      <DependentUpon>FormDSUngCuVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="fToTheoDoiKetQua.cs">
+    <Compile Include="FormNguoiDiBau.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fToTheoDoiKetQua.Designer.cs">
-      <DependentUpon>fToTheoDoiKetQua.cs</DependentUpon>
+    <Compile Include="FormNguoiDiBau.Designer.cs">
+      <DependentUpon>FormNguoiDiBau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormThongBao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThongBao.Designer.cs">
+      <DependentUpon>FormThongBao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormThongTinCaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThongTinCaNhan.Designer.cs">
+      <DependentUpon>FormThongTinCaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormToLapDanhSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormToLapDanhSach.Designer.cs">
+      <DependentUpon>FormToLapDanhSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormToTheoDoiKetQua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormToTheoDoiKetQua.Designer.cs">
+      <DependentUpon>FormToTheoDoiKetQua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormXemDSUngVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormXemDSUngVien.Designer.cs">
+      <DependentUpon>FormXemDSUngVien.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="fBanTochuc.resx">
-      <DependentUpon>fBanTochuc.cs</DependentUpon>
+    <EmbeddedResource Include="FormBanTochuc.resx">
+      <DependentUpon>FormBanTochuc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fBoPhanGiamSat.resx">
-      <DependentUpon>fBoPhanGiamSat.cs</DependentUpon>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fDSUngVien.resx">
-      <DependentUpon>fDSUngVien.cs</DependentUpon>
+    <EmbeddedResource Include="FormBauChon.resx">
+      <DependentUpon>FormBauChon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fLogin.resx">
-      <DependentUpon>fLogin.cs</DependentUpon>
+    <EmbeddedResource Include="FormBoPhanGiamSat.resx">
+      <DependentUpon>FormBoPhanGiamSat.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fNguoiDiBau.resx">
-      <DependentUpon>fNguoiDiBau.cs</DependentUpon>
+    <EmbeddedResource Include="FormDSNguoiDiBau.resx">
+      <DependentUpon>FormDSNguoiDiBau.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fToGiamSat.resx">
-      <DependentUpon>fToGiamSat.cs</DependentUpon>
+    <EmbeddedResource Include="FormDSUngCuVien.resx">
+      <DependentUpon>FormDSUngCuVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fToTheoDoiKetQua.resx">
-      <DependentUpon>fToTheoDoiKetQua.cs</DependentUpon>
+    <EmbeddedResource Include="FormNguoiDiBau.resx">
+      <DependentUpon>FormNguoiDiBau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThongBao.resx">
+      <DependentUpon>FormThongBao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThongTinCaNhan.resx">
+      <DependentUpon>FormThongTinCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormToLapDanhSach.resx">
+      <DependentUpon>FormToLapDanhSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormToTheoDoiKetQua.resx">
+      <DependentUpon>FormToTheoDoiKetQua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormXemDSUngVien.resx">
+      <DependentUpon>FormXemDSUngVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

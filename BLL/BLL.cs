@@ -15,5 +15,35 @@ namespace BLL
             return current_tv;
         }
 
+        public int GetMaTV(ThanhVien thanhVien)
+        {
+            int MaTV = new DAL.DAL().GetMaTV(thanhVien);
+            return MaTV;
+        }
+
+        public DSUngVien[] GetDSUngViens(ThanhVien thanhVien)
+        {
+            return new DAL.DAL().GetDSUngViens(thanhVien);
+        }
+
+        public bool createBauChon(ThanhVien thanhVien, List<DSUngVien> dSUngViens)
+        {
+            return new DAL.DAL().createBauChon(thanhVien, dSUngViens);
+
+        }
+        public ThongTinCaNhan GetThongTinCaNhan(ThanhVien thanhVien)
+        {
+            return new DAL.DAL().GetThongTinCaNhan(thanhVien);
+        }
+
+        public List<ThongBao> GetThongBaos(ThanhVien thanhVien)
+        {
+            return new DAL.DAL().GetThongBaos(thanhVien);
+        }
+
+        public List<DSBauCu> GetDSBauCus(ThanhVien thanhVien)
+        {
+            return new DAL.DAL().GetDSBauCus(thanhVien);
+        }
     }
 }
