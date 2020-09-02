@@ -1,0 +1,10 @@
+C:\Users\vinht\Desktop\QuanLyBinhBauTinNhiem\DAL\bin\Release\DAL.dll
+C:\Users\vinht\Desktop\QuanLyBinhBauTinNhiem\DAL\bin\Release\DAL.pdb
+C:\Users\vinht\Desktop\QuanLyBinhBauTinNhiem\DAL\bin\Release\DTO.dll
+C:\Users\vinht\Desktop\QuanLyBinhBauTinNhiem\DAL\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\vinht\Desktop\QuanLyBinhBauTinNhiem\DAL\bin\Release\DTO.pdb
+C:\Users\vinht\Desktop\QuanLyBinhBauTinNhiem\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+C:\Users\vinht\Desktop\QuanLyBinhBauTinNhiem\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+C:\Users\vinht\Desktop\QuanLyBinhBauTinNhiem\DAL\obj\Release\DAL.csproj.CopyComplete
+C:\Users\vinht\Desktop\QuanLyBinhBauTinNhiem\DAL\obj\Release\DAL.dll
+C:\Users\vinht\Desktop\QuanLyBinhBauTinNhiem\DAL\obj\Release\DAL.pdb
