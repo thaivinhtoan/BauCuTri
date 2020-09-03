@@ -35,5 +35,13 @@ namespace QuanLyBinhBauTinNhiem
             formThongTinCaNhan.ShowDialog();
             this.Show();
         }
+
+        private void butDSUngVien_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var formXemDSUngVien = new FormXemDSUngVien(thanhVien);
+            formXemDSUngVien.ShowDialog();
+            this.Show();
+        }
     }
 }

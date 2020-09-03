@@ -90,7 +90,9 @@
             this.Controls.Add(this.btXemThongTinCaNhan);
             this.Controls.Add(this.btXemThongBao);
             this.Controls.Add(this.btDSNguoiDiBau);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "FormToLapDanhSach";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormToLapDanhSach";
             this.ResumeLayout(false);
             this.PerformLayout();

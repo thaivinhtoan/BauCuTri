@@ -52,18 +52,19 @@
             // 
             this.butDSUngVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butDSUngVien.Location = new System.Drawing.Point(79, 68);
-            this.butDSUngVien.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.butDSUngVien.Margin = new System.Windows.Forms.Padding(2);
             this.butDSUngVien.Name = "butDSUngVien";
             this.butDSUngVien.Size = new System.Drawing.Size(409, 63);
             this.butDSUngVien.TabIndex = 1;
             this.butDSUngVien.Text = "Danh sách ứng cử viên";
             this.butDSUngVien.UseVisualStyleBackColor = true;
+            this.butDSUngVien.Click += new System.EventHandler(this.butDSUngVien_Click);
             // 
             // butNguoiDiBau
             // 
             this.butNguoiDiBau.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butNguoiDiBau.Location = new System.Drawing.Point(79, 157);
-            this.butNguoiDiBau.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.butNguoiDiBau.Margin = new System.Windows.Forms.Padding(2);
             this.butNguoiDiBau.Name = "butNguoiDiBau";
             this.butNguoiDiBau.Size = new System.Drawing.Size(409, 66);
             this.butNguoiDiBau.TabIndex = 2;
@@ -74,7 +75,7 @@
             // 
             this.butTheoDoiKQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butTheoDoiKQ.Location = new System.Drawing.Point(79, 242);
-            this.butTheoDoiKQ.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.butTheoDoiKQ.Margin = new System.Windows.Forms.Padding(2);
             this.butTheoDoiKQ.Name = "butTheoDoiKQ";
             this.butTheoDoiKQ.Size = new System.Drawing.Size(409, 64);
             this.butTheoDoiKQ.TabIndex = 3;
@@ -85,7 +86,7 @@
             // 
             this.butGiamSat.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butGiamSat.Location = new System.Drawing.Point(79, 324);
-            this.butGiamSat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.butGiamSat.Margin = new System.Windows.Forms.Padding(2);
             this.butGiamSat.Name = "butGiamSat";
             this.butGiamSat.Size = new System.Drawing.Size(401, 59);
             this.butGiamSat.TabIndex = 4;
@@ -96,7 +97,7 @@
             // 
             this.btXemTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btXemTB.Location = new System.Drawing.Point(79, 400);
-            this.btXemTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btXemTB.Margin = new System.Windows.Forms.Padding(2);
             this.btXemTB.Name = "btXemTB";
             this.btXemTB.Size = new System.Drawing.Size(401, 59);
             this.btXemTB.TabIndex = 5;
@@ -108,7 +109,7 @@
             // 
             this.btTTCaNhan.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btTTCaNhan.Location = new System.Drawing.Point(79, 478);
-            this.btTTCaNhan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btTTCaNhan.Margin = new System.Windows.Forms.Padding(2);
             this.btTTCaNhan.Name = "btTTCaNhan";
             this.btTTCaNhan.Size = new System.Drawing.Size(401, 72);
             this.btTTCaNhan.TabIndex = 6;
@@ -116,7 +117,7 @@
             this.btTTCaNhan.UseVisualStyleBackColor = true;
             this.btTTCaNhan.Click += new System.EventHandler(this.btTTCaNhan_Click);
             // 
-            // fBanTochuc
+            // FormBanTochuc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -130,8 +131,8 @@
             this.Controls.Add(this.butDSUngVien);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "fBanTochuc";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "FormBanTochuc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fBanTochuc";
             this.ResumeLayout(false);

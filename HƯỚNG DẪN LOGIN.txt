@@ -1,0 +1,5 @@
+TÀI KHOẢN BAN TỔ CHỨC: trung|1234
+TÀI KHOẢN TỔ LẬP DANH SÁCH: quang|1234
+TÀI KHOẢN TỔ THEO DÕI KẾT QUẢ: tri|1234
+TÀI KHOẢN BỘ PHẬN GIÁM SÁT: tu|1234
+TÀI KHOẢN NGƯỜI ĐI BẦU: nga|1234

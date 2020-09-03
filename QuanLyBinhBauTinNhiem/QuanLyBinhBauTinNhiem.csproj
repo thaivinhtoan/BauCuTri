@@ -76,12 +76,6 @@
     <Compile Include="FormDSNguoiDiBau.Designer.cs">
       <DependentUpon>FormDSNguoiDiBau.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDSUngCuVien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormDSUngCuVien.Designer.cs">
-      <DependentUpon>FormDSUngCuVien.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormNguoiDiBau.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,9 +128,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDSNguoiDiBau.resx">
       <DependentUpon>FormDSNguoiDiBau.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDSUngCuVien.resx">
-      <DependentUpon>FormDSUngCuVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormNguoiDiBau.resx">
       <DependentUpon>FormNguoiDiBau.cs</DependentUpon>

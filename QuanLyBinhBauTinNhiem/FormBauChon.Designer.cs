@@ -151,6 +151,7 @@
             this.Controls.Add(this.lvUngVien);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "FormBauChon";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormBauChon";
             this.Load += new System.EventHandler(this.FormBauChon_Load);
             this.ResumeLayout(false);

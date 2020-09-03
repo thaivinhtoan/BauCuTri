@@ -90,7 +90,9 @@
             this.Controls.Add(this.btXemThongTinCaNhan);
             this.Controls.Add(this.btXemThongBao);
             this.Controls.Add(this.btBauChon);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "FormNguoiDiBau";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();
 
